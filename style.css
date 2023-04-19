@@ -1,0 +1,37 @@
+.form{
+ width: 25rem;
+ margin: auto;
+}
+
+.form input, button{
+    display: block;
+    margin: 1rem 0rem;
+}
+
+.form label{
+    display: block;
+    margin-bottom: -0.7rem;
+    padding: 0px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.btn{
+    height: 2.5rem;
+    width: 8rem;
+    font-weight: bold;
+    background-color: rgb(2, 136, 245);
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+    transition: all 100ms ease;
+}
+
+.btn:hover{
+    background-color: rgb(6, 187, 0);
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+    height: 3rem;
+    width: 8.5rem;
+}
